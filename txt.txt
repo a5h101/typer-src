@@ -1,0 +1,23 @@
+Install PyInstaller:
+If you haven't already installed PyInstaller, you can do so using pip:
+`
+Copy code
+pip install pyinstaller
+Navigate to your script's directory:
+Open a command prompt or terminal, and navigate to the directory where your Python script is located.
+`
+Create the .exe file:
+Run the following command to create the .exe file for your script:
+~
+css
+Copy code
+pyinstaller --onefile your_script.py
+Replace your_script.py with the actual name of your Python script.
+`
+Wait for the process to complete:
+PyInstaller will analyze your script and its dependencies, and it may take some time to create the executable. Once the process is complete, you'll find the .exe file in the dist directory within your script's directory.
+`
+Test the .exe file:
+You can now test the generated .exe file to make sure it works as expected.
+`
+Please note that PyInstaller will bundle all the necessary libraries and resources into a standalone executable, making it larger in size. Also, some antivirus software may flag executable files created with PyInstaller as false positives, so you may need to whitelist them.
