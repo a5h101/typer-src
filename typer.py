@@ -75,7 +75,7 @@ else:
         sys.exit(1)  # Exit the program with a non-zero status code
 
 ######################################
-# MAIN LOGIN
+# AFTER LOGIN
 #####################################
 
 typing_continues = True  # Initialize the typing_continues variable
