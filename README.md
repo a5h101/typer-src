@@ -1,1 +1,1 @@
-exe - https://github.com/akash-d-dev/Typer
+Exe - https://github.com/akash-d-dev/Typer
