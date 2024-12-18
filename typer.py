@@ -76,7 +76,7 @@ else:
 
 ######################################
 # AFTER LOGIN
-#####################################
+######################################
 
 typing_continues = True  # Initialize the typing_continues variable
 
